@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "portlandfoodieblog55648f8e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

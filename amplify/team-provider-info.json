@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-portlandfoodieblog-dev-144540-authRole",
+      "UnauthRoleArn": "arn:aws:iam::947994367568:role/amplify-portlandfoodieblog-dev-144540-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::947994367568:role/amplify-portlandfoodieblog-dev-144540-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-portlandfoodieblog-dev-144540-deployment",
+      "UnauthRoleName": "amplify-portlandfoodieblog-dev-144540-unauthRole",
+      "StackName": "amplify-portlandfoodieblog-dev-144540",
+      "StackId": "arn:aws:cloudformation:us-west-2:947994367568:stack/amplify-portlandfoodieblog-dev-144540/a5ba47f0-ed65-11ea-b821-0af3d163dc14",
+      "AmplifyAppId": "d27c84njezonyy"
+    },
+    "categories": {
+      "auth": {
+        "portlandfoodieblog55648f8e": {}
+      }
+    }
+  }
+}
