@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import HomePage from './pages/HomePage'; 
 import AboutPage from './pages/AboutPage';
+import Signup from './pages/Signup'; 
+
 import ArticlePage from './pages/ArticlePage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -22,6 +24,8 @@ class App extends Component {
             <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/about" component={AboutPage} />
+            <Route path="/signup" component={Signup} />
+
             <Route path="/articles-list" component={ArticlesListPage} />
             <Route path="/article/:name" component={ArticlePage} />
             <Route component={NotFoundPage} />
