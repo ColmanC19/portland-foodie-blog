@@ -25,7 +25,6 @@ class App extends Component {
             <Route path="/" component={HomePage} exact />
             <Route path="/about" component={AboutPage} />
             <Route path="/signup" component={Signup} />
-
             <Route path="/articles-list" component={ArticlesListPage} />
             <Route path="/article/:name" component={ArticlePage} />
             <Route component={NotFoundPage} />
