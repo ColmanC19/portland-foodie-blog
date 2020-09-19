@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import HomePage from './pages/HomePage'; 
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
@@ -27,11 +26,6 @@ class App extends Component {
             <Route path="/article/:name" component={ArticlePage} />
             <Route component={NotFoundPage} />
             </Switch>
-            <header>
-              {/* <img src={logo} className="App-logo" alt="logo" /> */}
-              {/* <h1>We now have Auth!</h1> */}
-            </header>
-            <AmplifySignOut />
           </div>
         </div>
  
@@ -39,16 +33,5 @@ class App extends Component {
     );
   }
 }
-// function App() {
-//   return (
-//     <div className="App">
-//       <header>
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <h1>We now have Auth!</h1>
-//       </header>
-//       <AmplifySignOut />
-//     </div>
-//   );
-// }
 
-export default withAuthenticator(App);
+export default App;
